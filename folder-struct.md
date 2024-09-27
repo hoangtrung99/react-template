@@ -1,16 +1,3 @@
-# React + TypeScript + Vite
-
-## Main branch is base stack
-- [Vite](https://vitejs.dev/)
-- [React](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [BiomeJS](https://biomejs.dev/)
-- [Commitlint](https://commitlint.js.org/)
-- [Lefthook](https://github.com/evilmartians/lefthook)
-- [Pnpm](https://pnpm.io/)
-
-## Folder structure
-
 ```
 src
 ├── assets            # Chứa các tài nguyên tĩnh như hình ảnh, font chữ, v.v.
@@ -36,6 +23,7 @@ src
 │   ├── feature-name3 # Đây là một thư mục tính năng khác
 │   └── index.ts      # Export tất cả các tính năng
 ├── libs              # Chứa các thư viện và tiện ích dùng chung cho toàn ứng dụng
+│   ├── components    # Các component dùng chung
 │   ├── config        # Cấu hình chung cho ứng dụng
 │   ├── hooks         # Các hook dùng chung
 │   ├── providers     # Các provider cho context hoặc state management
