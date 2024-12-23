@@ -6,23 +6,24 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "npx biome check --no-errors-on-unmatched --files-ignore-unknown=true",
+    "lint": "biome check --no-errors-on-unmatched --files-ignore-unknown=true",
+    "format": "biome format --fix ./src",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.3",
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react": "^4.3.0",
-    "lefthook": "^1.6.12",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.12",
-    "vite-tsconfig-paths": "^4.3.2"
+    "@biomejs/biome": "1.9.4",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "lefthook": "^1.10.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }
